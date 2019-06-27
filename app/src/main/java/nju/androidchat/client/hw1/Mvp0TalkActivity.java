@@ -1,4 +1,4 @@
-package nju.androidchat.client.mvp0;
+package nju.androidchat.client.hw1;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -23,6 +23,9 @@ import nju.androidchat.client.component.ItemTextReceive;
 import nju.androidchat.client.component.ItemTextReceive2;
 import nju.androidchat.client.component.ItemTextSend;
 import nju.androidchat.client.component.OnRecallMessageRequested;
+import nju.androidchat.client.mvp0.Mvp0Contract;
+import nju.androidchat.client.mvp0.Mvp0TalkModel;
+import nju.androidchat.client.mvp0.Mvp0TalkPresenter;
 
 @Log
 public class Mvp0TalkActivity extends AppCompatActivity implements Mvp0Contract.View, TextView.OnEditorActionListener, OnRecallMessageRequested {
